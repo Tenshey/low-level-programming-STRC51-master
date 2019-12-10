@@ -1,0 +1,38 @@
+#keyboard{
+  width: 260px;
+  margin: 1px;
+  padding: 1px;
+
+}
+#left{
+  width: 260px;
+  margin-right: 20px;
+  margin-left: 20px;
+  float: left;
+  margin-top: 20px;
+}
+#toolbar{
+  margin-top: 20px;
+  width: 60%;
+  float: left;
+  margin-left: 20px;
+}
+#container{
+  width: 100%;
+}
+
+button {
+	color: black!important;
+}
+
+body {
+    background: url("bgimg.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+table, th, td, thead, tr {
+   border: 3px solid #17a2b8;
+}

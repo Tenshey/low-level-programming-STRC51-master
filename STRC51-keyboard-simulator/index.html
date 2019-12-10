@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Symulacja klawiatury</title>
+
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body id="home">
+    <div id="container">
+		<div id="left">
+
+			<b> Klawisze: </b>
+			<p>
+			<div id="keyboard">
+
+			</div>
+			
+			<p><p><b> Flagi: </b><p>
+			<div id="output">
+				<table class="table table-hover" style="text-align:center;">
+					<thead>
+					  <tr>
+						<th>U12</th>
+						<th>U15</th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+						<td><span id="u15">1111</span></td>
+						<td><span id="u12">1111</span></td>
+					  </tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div id="toolbar">
+			<b> Prędkość: </b><p><p><input type="text" class="form-control" value="1000" id="speed">
+			</input><button id="start" class="btn btn-info btn-block">Start</button>
+			<p>
+				<b> Instrukcja: </b>
+				<ul>
+					<li>
+						1. Wciśniecie start spowoduje uruchomienie ciągle działającej funkcji
+						 zmieniającej stan rejestru U15 tak by sprawdzić jedną kolumne
+						 czy wciśnięty został klawisz.
+					</li>
+					<li>
+						2. Szybkośc działania funkcji można zmieńić użtwając pola tekstowego
+						(czas podaje się w milisekundach).
+					</li>
+					<li>
+						3. naciśnięcie jednego z przycisków klawiatury symuluje nasiśnięcie i
+						 przytrzymanie klawisza na płytce.
+					</li>
+				</ul>
+			</p>
+		</div>
+	</div>
+
+
+</body>
+    <script src="main.js"></script>
+</html>
